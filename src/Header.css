@@ -1,0 +1,25 @@
+.header {
+  display: flex;
+  justify-content: space-evenly;
+  width: 45%;
+  margin-right: auto;
+  margin-left: auto;
+  left: 0;
+  right: 0;
+  align-items: center;
+  border-bottom: 1px solid #f9f9f9;
+}
+
+.header__logo {
+  height: 40px;
+  object-fit: contain;
+  transition: all 0.5s ease;
+}
+
+.header__logoGrey {
+  filter: grayscale(100%);
+}
+
+.header__icon {
+  padding: 20px;
+}
